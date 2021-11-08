@@ -1,0 +1,159 @@
+*{
+ box-sizing: border-box
+}
+.gold{
+text-decoration: underline;
+padding-left: 25px;
+color: darkgoldenrod;
+}
+h1{
+text-decoration: underline;
+text-align: center;
+color: darkgoldenrod;
+}
+.HD{
+text-align: center;    
+}
+.logo{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+#PP{
+float: left;
+}
+img{
+display: inline-block;
+}
+body{
+background-color:#80004b;
+}
+.navbar{
+width: 100%;
+overflow:auto;
+background-color: #333;
+}
+.navBN{
+float: left;    
+}
+.navbar a{
+float: left;
+text-align: center;
+color: white;
+padding: 14px;
+text-decoration:underline;
+font-size: 1.2em;
+width: 50%; /**/
+}
+.navbar a:active{
+color: aqua;    
+}
+.navbar a:hover{
+background-color: darkgoldenrod;
+}
+
+.MainContent{
+background-color: #333;
+height:550px;
+width: 1000px;
+margin: auto;
+}
+.MainContent2{
+background-color: #333;
+height:1000px;
+width: 1000px;
+margin: auto;
+}
+.card{
+	border-style: solid;
+    border-color: darkgoldenrod;
+	border-width: 5px;
+	background-color: #ffffff;
+    padding-top:.1px;
+    height: 220px;
+	width: 950px;
+	margin:auto; 
+	position:relative;  
+}
+table{
+border-collapse: collapse;    
+}
+table, th, td{
+border: 1px solid black;
+}
+ td{
+height: 28px;
+    width: 810px;    
+}
+
+th,td{
+text-align: center;
+font-size: 20px;
+}
+table tr:nth-of-type(even){
+background-color: #ddd    
+}
+table tr:nth-of-type(odd){
+background-color: #828282;    
+}
+
+
+.mrow{
+width: 250px;
+display: inline-block;
+}
+.TR{
+width: 300px;
+display: inline-block;
+}
+.BR{
+width: 300px;
+display: inline-block;
+}
+
+.Card2{
+    border-style: solid;
+    border-color: darkgoldenrod;
+	border-width: 5px;
+	background-color: #ffffff;
+    height: 150px;
+	width: 950px;
+	margin:auto; 
+}
+.hlist{
+font-size: 20px;
+padding-left: 2px;
+text-decoration: underline
+}
+.cardli{
+margin-top: 4px;    
+}
+.cardli li{
+font-size: 1.2em    
+}
+ a#WIT{
+color: black;
+text-align:left;
+text-decoration:none;
+}
+a#WIT:hover{
+color: blue;  
+}
+a#WIT:visited{
+color: darkmagenta;    
+}
+a#WIT:active{
+color: aqua;    
+}
+.footer{
+background-color: #333;
+width: auto;
+height: 50px;
+text-align: center;
+
+}
+.footer p#CP {
+color: white;
+padding-top: 20px;
+font-family:sans-serif;
+}
